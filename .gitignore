@@ -1,0 +1,23 @@
+# Data
+data/raw/*.csv
+data/processed/*
+!data/processed/.gitkeep
+data/data_mart/*.parquet
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Power BI temp
+dashboard/~$*.pbix
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python (kalau nanti ada notebook/script bantu)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
